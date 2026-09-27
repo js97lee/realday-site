@@ -1,4 +1,13 @@
 /* REALDAY editorial detail pages */
+.editorial-image{margin:0 0 48px;background:#e9edf3}
+.editorial-image img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
+.editorial-image figcaption{display:flex;justify-content:space-between;gap:20px;padding:15px 18px;font-size:12px;line-height:1.6;color:var(--muted);border-top:1px solid var(--line);background:var(--paper)}
+.editorial-image figcaption span:first-child{color:var(--blue)}
+.editorial-image.wide-image img{aspect-ratio:2/1}
+.lab-image{margin:30px 0 0;display:block}
+.lab-image img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+.lab-image figcaption{font-size:12px;line-height:1.6;color:var(--muted);margin-top:10px}
+@media(max-width:600px){.editorial-image{margin-bottom:30px}.editorial-image img,.editorial-image.wide-image img{aspect-ratio:3/2}.editorial-image figcaption{padding:12px 14px;font-size:12px;flex-wrap:wrap;gap:4px 18px}.lab-image{margin-top:25px}}
 .header nav a[aria-current=page]{color:var(--blue)}
 .header nav a[aria-current=page]:after{transform:scaleX(1)}
 .page-hero{padding:40px var(--pad) 75px}
