@@ -8,14 +8,15 @@
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%232843ed'/%3E%3Cpath d='M16 14h18c11 0 16 6 16 15 0 6-3 11-8 13l10 12H37L27 40v14H16zm11 10v9h7c4 0 5-2 5-5s-2-4-5-4z' fill='white'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="./styles.css?v=2">
+  <link rel="stylesheet" href="./styles.css?v=3">
+<link rel="stylesheet" href="./details.css?v=3">
 </head>
 <body id="top">
   <a class="skip" href="#main">본문으로 건너뛰기</a>
   <header class="header">
     <a class="small-logo" href="#top" aria-label="REALDAY 홈">R<span>↗</span></a>
     <p class="header-statement">Independent minds.<br>Connected possibilities.</p>
-    <nav id="navigation" aria-label="주요 메뉴"><a href="#about">About</a><a href="#expertise">Expertise</a><a href="#ventures">Ventures</a><a href="#lab">R&D Lab <span>↗</span></a></nav>
+    <nav id="navigation" aria-label="주요 메뉴"><a href="/about/">About</a><a href="/expertise/">Expertise</a><a href="/ventures/">Ventures</a><a href="/lab/">R&D Lab <span>↗</span></a></nav>
     <button class="menu" aria-controls="navigation" aria-expanded="false" aria-label="메뉴 열기"><span></span><span></span></button>
   </header>
   <main id="main">
@@ -23,41 +24,46 @@
       <div class="wordmark"><h1>REALDAY</h1><span class="wordmark-star" aria-hidden="true">✳</span></div>
       <div class="hero-meta"><span>DESIGN & TECHNOLOGY COMPANY</span><span>MAKE THE NEXT REAL. ↓</span></div>
       <div class="hero-stage">
-        <div class="hero-copy"><span class="eyebrow">FROM IDEA TO EVERYDAY</span><h2>상상을 설계하고,<br>일상을 바꾸다.</h2><p>디자인의 감각과 기술의 깊이.<br>리얼데이는 그 사이에서 다음을 만듭니다.</p><a class="text-link" href="#expertise">우리가 만드는 가능성 <span>↗</span></a></div>
+        <div class="hero-copy"><span class="eyebrow">FROM IDEA TO EVERYDAY</span><h2>상상을 설계하고,<br>일상을 바꾸다.</h2><p>디자인의 감각과 기술의 깊이.<br>리얼데이는 그 사이에서 다음을 만듭니다.</p><a class="text-link" href="/expertise/">우리가 만드는 가능성 <span>↗</span></a></div>
         <figure class="hero-art"><img src="./assets/realday-silver-blue.png" alt="블루 평면과 실버 루프가 교차하는 리얼데이의 추상 브랜드 아트" fetchpriority="high" width="1536" height="1024"><figcaption><span>REALDAY EXPLORATIONS</span><span>FORM × FUNCTION — 01</span></figcaption></figure>
       </div>
     </section>
     <section class="about section" id="about">
       <div class="section-top"><span class="eyebrow">01 / OUR PERSPECTIVE</span><span class="micro">IDEAS BECOME EXPERIENCES.</span></div>
       <div class="about-grid"><h2>Good design.<br>Real technology.<br><span>Better everyday.</span></h2><div class="about-copy"><p>화면 속 경험에서 손에 닿는 제품까지.<br>우리는 디자인하고, 개발하고,<br>새로운 일상의 가능성을 실험합니다.</p><p>UX/UI와 소프트웨어를 시작으로 하드웨어와 라이프스타일 R&D까지. 서로 다른 전문성을 연결해 아이디어를 실제로 작동하는 경험으로 완성합니다.</p></div></div>
+    <div class="section-more"><a class="text-link" href="/about/">리얼데이 더 알아보기 <span>↗</span></a></div>
     </section>
     <section class="expertise section" id="expertise">
       <div class="section-top"><span class="eyebrow">02 / OUR EXPERTISE</span><span class="micro">FOUR DISCIPLINES. ONE TEAM.</span></div>
       <div class="section-heading"><h2>Boundaries off.</h2><p>경계를 넘는 네 가지 역량.</p></div>
       <div class="service-list">
-        <details open><summary><span class="num">01</span><h3>Design</h3><span class="service-ko">디자인</span><span class="plus" aria-hidden="true"></span></summary><div class="service-body"><p>사용자에게 명확하고,<br>브랜드에는 고유한 경험.</p><ul><li>SW 서비스 디자인 · UX/UI</li><li>비주얼 커머셜 · 광고 크리에이티브</li><li>웹 · 인터랙션 디자인</li><li>제품 디자인</li></ul></div></details>
-        <details><summary><span class="num">02</span><h3>Software</h3><span class="service-ko">소프트웨어 개발</span><span class="plus" aria-hidden="true"></span></summary><div class="service-body"><p>보이는 UI부터 보이지 않는 시스템까지,<br>서비스를 하나로 연결합니다.</p><ul><li>프론트엔드 · UI 구현</li><li>백엔드 · 서비스 시스템</li><li>모바일 애플리케이션</li><li>AI 자동화</li></ul></div></details>
-        <details><summary><span class="num">03</span><h3>Hardware<sup>R&D</sup></h3><span class="service-ko">하드웨어 연구개발</span><span class="plus" aria-hidden="true"></span></summary><div class="service-body"><p>코드의 지능을,<br>만질 수 있는 제품으로.</p><ul><li>커스텀 PCB · KiCAD</li><li>AI 반려로봇 · 댕댕로봇</li><li>하드웨어 프로토타이핑</li></ul></div></details>
-        <details><summary><span class="num">04</span><h3>Lifestyle<sup>R&D</sup></h3><span class="service-ko">라이프스타일 연구개발</span><span class="plus" aria-hidden="true"></span></summary><div class="service-body"><p>생활의 작은 감각에서 찾는,<br>기술의 다음 쓰임.</p><ul><li>스마트 글래스</li><li>샤쉐 · 뷰티</li><li>테니스 웰니스 · 헬스케어</li><li>스마트팜</li></ul></div></details>
+        <details open><summary><span class="num">01</span><h3>Design</h3><span class="service-ko">디자인</span><span class="plus" aria-hidden="true"></span></summary><div class="service-body"><p>사용자에게 명확하고,<br>브랜드에는 고유한 경험.</p><ul><li>SW 서비스 디자인 · UX/UI</li><li>비주얼 커머셜 · 광고 크리에이티브</li><li>웹 · 인터랙션 디자인</li><li>제품 디자인</li></ul><a class="service-detail-link" href="/expertise/#design">서비스 범위와 산출물 보기 ↗</a></div></details>
+        <details><summary><span class="num">02</span><h3>Software</h3><span class="service-ko">소프트웨어 개발</span><span class="plus" aria-hidden="true"></span></summary><div class="service-body"><p>보이는 UI부터 보이지 않는 시스템까지,<br>서비스를 하나로 연결합니다.</p><ul><li>프론트엔드 · UI 구현</li><li>백엔드 · 서비스 시스템</li><li>모바일 애플리케이션</li><li>AI 자동화</li></ul><a class="service-detail-link" href="/expertise/#software">서비스 범위와 산출물 보기 ↗</a></div></details>
+        <details><summary><span class="num">03</span><h3>Hardware<sup>R&D</sup></h3><span class="service-ko">하드웨어 연구개발</span><span class="plus" aria-hidden="true"></span></summary><div class="service-body"><p>코드의 지능을,<br>만질 수 있는 제품으로.</p><ul><li>커스텀 PCB · KiCAD</li><li>AI 반려로봇 · 댕댕로봇</li><li>하드웨어 프로토타이핑</li></ul><a class="service-detail-link" href="/expertise/#hardware">서비스 범위와 산출물 보기 ↗</a></div></details>
+        <details><summary><span class="num">04</span><h3>Lifestyle<sup>R&D</sup></h3><span class="service-ko">라이프스타일 연구개발</span><span class="plus" aria-hidden="true"></span></summary><div class="service-body"><p>생활의 작은 감각에서 찾는,<br>기술의 다음 쓰임.</p><ul><li>스마트 글래스</li><li>샤쉐 · 뷰티</li><li>테니스 웰니스 · 헬스케어</li><li>스마트팜</li></ul><a class="service-detail-link" href="/expertise/#lifestyle">서비스 범위와 산출물 보기 ↗</a></div></details>
       </div>
+    <div class="section-more"><a class="text-link" href="/expertise/">분야별 서비스 자세히 보기 <span>↗</span></a></div>
     </section>
     <section class="xr section" id="xr">
       <div class="section-top"><span class="eyebrow">03 / REALDAY XR</span><span class="micro">SPATIAL AI PLATFORM</span></div>
       <div class="xr-title"><h2>Beyond<br>the screen.</h2><span aria-hidden="true">↗</span></div>
       <div class="xr-bottom"><p>기술을 보는 것에서,<br>기술을 느끼는 것으로.</p><div><div class="equation">AI Agent <span>+</span> Visual <span>→</span> Feeling</div><p>AI NPC와 공간형 인터랙션이 만나는 XR 플랫폼.<br>디자인과 기술을 하나의 몰입형 경험으로 연결합니다.</p></div></div>
+    <div class="section-more"><a class="text-link" href="/ventures/#xr">XR 플랫폼 자세히 보기 <span>↗</span></a></div>
     </section>
     <section class="ventures section" id="ventures">
       <div class="section-top"><span class="eyebrow">04 / OUR VENTURES</span><span class="micro">DIFFERENT FIELDS. SHARED CURIOSITY.</span></div>
       <div class="section-heading"><h2>Next, in real life.</h2><p>리얼데이가 확장하는 세 가지 방향.</p></div>
       <div class="venture-grid">
-        <article class="venture avora"><div class="venture-face"><span class="eyebrow">01 / LIFESTYLE</span><h3>AVORA</h3><span class="venture-caption">A NEW SENSE OF EVERYDAY.</span></div><div class="venture-info"><h4>아보라</h4><p>생활에 감각과 기술을 더하는<br>라이프스타일의 새로운 가능성.</p></div></article>
-        <article class="venture edu"><div class="venture-face"><span class="eyebrow">02 / EDUCATION</span><h3>REAL<br>EDU<span>_</span></h3><span class="venture-caption">LEARN. MAKE. REPEAT.</span></div><div class="venture-info"><h4>리얼데이 에듀</h4><p>AI와 함께 직접 만들고,<br>일하는 방식을 바꾸는 교육.</p></div></article>
-        <article class="venture spatial"><a class="venture-face" href="#xr" aria-label="리얼데이 XR 플랫폼 소개"><span class="eyebrow">03 / SPATIAL EXPERIENCE</span><h3>XR<span>↗</span></h3><span class="venture-caption">INTELLIGENCE, EXPERIENCED.</span></a><div class="venture-info"><h4>리얼데이 XR</h4><p>AI 에이전트와 비주얼이 만나<br>느껴지는 기술을 만드는 플랫폼.</p></div></article>
+        <article class="venture avora"><a class="venture-face" href="/ventures/#avora" aria-label="아보라 상세 소개"><span class="eyebrow">01 / LIFESTYLE</span><h3>AVORA</h3><span class="venture-caption">A NEW SENSE OF EVERYDAY.</span></a><div class="venture-info"><h4>아보라</h4><p>생활에 감각과 기술을 더하는<br>라이프스타일의 새로운 가능성.</p></div></article>
+        <article class="venture edu"><a class="venture-face" href="/ventures/#edu" aria-label="리얼데이 에듀 상세 소개"><span class="eyebrow">02 / EDUCATION</span><h3>REAL<br>EDU<span>_</span></h3><span class="venture-caption">LEARN. MAKE. REPEAT.</span></a><div class="venture-info"><h4>리얼데이 에듀</h4><p>AI와 함께 직접 만들고,<br>일하는 방식을 바꾸는 교육.</p></div></article>
+        <article class="venture spatial"><a class="venture-face" href="/ventures/#xr" aria-label="리얼데이 XR 플랫폼 소개"><span class="eyebrow">03 / SPATIAL EXPERIENCE</span><h3>XR<span>↗</span></h3><span class="venture-caption">INTELLIGENCE, EXPERIENCED.</span></a><div class="venture-info"><h4>리얼데이 XR</h4><p>AI 에이전트와 비주얼이 만나<br>느껴지는 기술을 만드는 플랫폼.</p></div></article>
       </div>
+    <div class="section-more"><a class="text-link" href="/ventures/">브랜드의 방향 알아보기 <span>↗</span></a></div>
     </section>
-    <section class="lab section" id="lab"><div class="section-top"><span class="eyebrow">05 / R&D LAB</span><span class="micro">WORK IN EXPLORATION</span></div><div class="lab-layout"><div><h2>Always<br>in progress<span>.</span></h2><p>새로운 일상의 가능성을<br>계속 탐구합니다.</p></div><ul><li><span>01</span><h3>댕댕로봇</h3><small>AI COMPANION</small></li><li><span>02</span><h3>Smart Glasses</h3><small>WEARABLE</small></li><li><span>03</span><h3>Sachet</h3><small>BEAUTY</small></li><li><span>04</span><h3>Tennis Wellness</h3><small>HEALTHCARE</small></li><li><span>05</span><h3>Smart Farm</h3><small>SMART LIVING</small></li></ul></div></section>
+    <section class="lab section" id="lab"><div class="section-top"><span class="eyebrow">05 / R&D LAB</span><span class="micro">WORK IN EXPLORATION</span></div><div class="lab-layout"><div><h2>Always<br>in progress<span>.</span></h2><p>새로운 일상의 가능성을<br>계속 탐구합니다.</p></div><ul><li><span>01</span><h3><a href="/lab/#robot">댕댕로봇</a></h3><small>AI COMPANION</small></li><li><span>02</span><h3><a href="/lab/#glasses">Smart Glasses</a></h3><small>WEARABLE</small></li><li><span>03</span><h3><a href="/lab/#sachet">Sachet</a></h3><small>BEAUTY</small></li><li><span>04</span><h3><a href="/lab/#wellness">Tennis Wellness</a></h3><small>HEALTHCARE</small></li><li><span>05</span><h3><a href="/lab/#farm">Smart Farm</a></h3><small>SMART LIVING</small></li></ul></div><div class="section-more"><a class="text-link" href="/lab/">다섯 가지 연구 주제 살펴보기 <span>↗</span></a></div>
+    </section>
   </main>
   <footer><div class="footer-top"><p>다음의 일상을 만듭니다.</p><a href="#top">Back to top ↑</a></div><p class="footer-word">MAKE IT REAL.</p><div class="footer-bottom"><a href="#top">REALDAY</a><span>DESIGN × TECHNOLOGY × EVERYDAY</span><span>© 2026 REALDAY</span></div></footer>
-  <script src="./script.js?v=2"></script>
+  <script src="./script.js?v=3"></script>
 </body>
 </html>
