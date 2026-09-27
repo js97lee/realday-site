@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#050505" />
+    <meta name="description" content="REALDAY는 디자인, 소프트웨어, 하드웨어, 라이프스타일 R&D를 연결해 새로운 경험을 만드는 디자인 테크놀로지 스튜디오입니다." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23ff5c20'/%3E%3Cpath d='M18 18h16c9 0 14 5 14 13 0 6-3 10-8 12l9 13H37l-7-11v11H18V18zm12 9v10h4c3 0 5-2 5-5s-2-5-5-5h-4z' fill='white'/%3E%3C/svg%3E" />
+    <title>REALDAY — Design, Technology &amp; R&amp;D</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="REALDAY 홈">
+        <span class="brand-mark" aria-hidden="true">R</span>
+        <span>REALDAY</span>
+      </a>
+      <nav aria-label="주요 메뉴">
+        <a href="#capabilities">Capabilities</a>
+        <a href="#xr">XR Platform</a>
+        <a href="#ventures">Ventures</a>
+      </nav>
+      <a class="header-cta" href="#contact">Start a project <span>↗</span></a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-label="메뉴 열기"><span></span><span></span></button>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-image-wrap" aria-hidden="true">
+          <img src="./assets/realday-hero.png" alt="" />
+          <div class="hero-glow"></div>
+        </div>
+        <div class="hero-kicker reveal">Independent design &amp; technology studio · Seoul</div>
+        <h1 id="hero-title" class="hero-title">
+          <span class="reveal">Designs systems.</span>
+          <span class="reveal delay-1">Builds technology.</span>
+          <span class="accent-line reveal delay-2">Creates <em>feeling.</em></span>
+        </h1>
+        <div class="hero-bottom reveal delay-2">
+          <p>UX/UI에서 AI 자동화, 커스텀 PCB와 XR까지.<br />아이디어가 작동하고 느껴지는 순간을 만듭니다.</p>
+          <a class="circle-link" href="#intro" aria-label="소개 보기"><span>↓</span></a>
+        </div>
+      </section>
+
+      <div class="ticker" aria-hidden="true">
+        <div class="ticker-track">
+          <span>DESIGN</span><i>✳</i><span>SOFTWARE</span><i>✳</i><span>HARDWARE</span><i>✳</i><span>LIFESTYLE</span><i>✳</i>
+          <span>DESIGN</span><i>✳</i><span>SOFTWARE</span><i>✳</i><span>HARDWARE</span><i>✳</i><span>LIFESTYLE</span><i>✳</i>
+        </div>
+      </div>
+
+      <section class="intro section-pad" id="intro">
+        <div class="section-label"><span>01</span> ABOUT REALDAY</div>
+        <p class="intro-copy split-reveal">우리는 <b>개념</b>과 <b>코드</b>,<br /><b>하드웨어</b>와 <b>일상</b> 사이의<br />새로운 연결을 디자인합니다.</p>
+        <div class="intro-aside">
+          <span>Design → Build → Feel</span>
+          <p>보이는 것에서 멈추지 않고, 실제로 작동하는 제품과 경험을 만듭니다.</p>
+        </div>
+      </section>
+
+      <section class="capabilities section-pad" id="capabilities">
+        <div class="section-label light"><span>02</span> CAPABILITIES</div>
+        <div class="cap-list">
+          <article class="cap-item active" tabindex="0">
+            <div class="cap-head"><span class="cap-no">01</span><h2>Design</h2><button type="button" aria-label="디자인 상세 보기">＋</button></div>
+            <div class="cap-detail">
+              <p>사람이 이해하고 브랜드가 기억되는 경험을 설계합니다.</p>
+              <ul><li>SW Service Design · UX/UI</li><li>Visual Commercial · 광고 문법</li><li>Interaction Design · Web</li><li>Product Design</li></ul>
+            </div>
+          </article>
+          <article class="cap-item" tabindex="0">
+            <div class="cap-head"><span class="cap-no">02</span><h2>Software</h2><button type="button" aria-label="소프트웨어 상세 보기">＋</button></div>
+            <div class="cap-detail">
+              <p>프론트부터 AI 자동화까지, 매끄럽게 연결되는 서비스를 만듭니다.</p>
+              <ul><li>Frontend · UI</li><li>Backend System</li><li>Mobile Application</li><li>AI Automation</li></ul>
+            </div>
+          </article>
+          <article class="cap-item" tabindex="0">
+            <div class="cap-head"><span class="cap-no">03</span><h2>Hardware <small>R&amp;D</small></h2><button type="button" aria-label="하드웨어 상세 보기">＋</button></div>
+            <div class="cap-detail">
+              <p>디지털 지능을 만질 수 있는 물성으로 구현합니다.</p>
+              <ul><li>Custom PCB · KiCAD</li><li>AI Companion Robot</li><li>Physical Prototyping</li><li>Integrated Product R&amp;D</li></ul>
+            </div>
+          </article>
+          <article class="cap-item" tabindex="0">
+            <div class="cap-head"><span class="cap-no">04</span><h2>Lifestyle <small>R&amp;D</small></h2><button type="button" aria-label="라이프스타일 상세 보기">＋</button></div>
+            <div class="cap-detail">
+              <p>기술이 생활의 감각과 습관을 바꾸는 가능성을 탐구합니다.</p>
+              <ul><li>Smart Glasses</li><li>Sachet · Beauty</li><li>Tennis Wellness · Healthcare</li><li>Smart Farm</li></ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="xr" id="xr">
+        <div class="xr-grid" aria-hidden="true"></div>
+        <div class="section-label"><span>03</span> XR PLATFORM</div>
+        <div class="xr-orbit" aria-hidden="true"><span></span><span></span><span></span></div>
+        <div class="xr-copy">
+          <p>AI AGENT + VISUAL</p>
+          <h2>Technology,<br />you can <em>feel.</em></h2>
+          <div class="formula"><span>AI Agent</span><b>＋</b><span>Visual</span><b>→</b><span>Feeling</span></div>
+        </div>
+        <div class="xr-note"><span>REALDAY XR / 001</span><p>AI NPC와 공간형 인터랙션을 통해 기술의 가능성을 눈앞의 경험으로 시현합니다.</p></div>
+      </section>
+
+      <section class="ventures section-pad" id="ventures">
+        <div class="section-label"><span>04</span> REALDAY VENTURES</div>
+        <div class="ventures-heading"><h2>Three ways<br />we move forward.</h2><p>리얼데이의 기술과 디자인이 서로 다른 산업에서 구체적인 제품과 서비스가 됩니다.</p></div>
+        <div class="venture-grid">
+          <article class="venture-card avora">
+            <div class="card-top"><span>01 / CONSUMER TECH</span><span>↗</span></div>
+            <div><h3>AVORA</h3><p>일상에 스며드는 감각적인<br />라이프스타일 테크.</p></div>
+            <div class="card-signal" aria-hidden="true"></div>
+          </article>
+          <article class="venture-card edu">
+            <div class="card-top"><span>02 / EDUCATION</span><span>↗</span></div>
+            <div><h3>REALDAY<br />EDU</h3><p>AI 시대의 일을 직접 만들며<br />배우는 실전형 교육.</p></div>
+            <div class="card-signal" aria-hidden="true"></div>
+          </article>
+          <article class="venture-card xrv">
+            <div class="card-top"><span>03 / SPATIAL AI</span><span>↗</span></div>
+            <div><h3>REALDAY<br />XR</h3><p>AI 에이전트와 비주얼이 만나는<br />공간형 경험 플랫폼.</p></div>
+            <div class="card-signal" aria-hidden="true"></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="experiments section-pad">
+        <div class="section-label light"><span>05</span> ONGOING EXPERIMENTS</div>
+        <div class="experiment-list">
+          <div><span>01</span><h3>댕댕로봇</h3><p>AI Companion Robot</p></div>
+          <div><span>02</span><h3>Smart Glasses</h3><p>Wearable Intelligence</p></div>
+          <div><span>03</span><h3>Sachet</h3><p>Beauty &amp; Material</p></div>
+          <div><span>04</span><h3>Tennis Wellness</h3><p>Healthcare Experience</p></div>
+          <div><span>05</span><h3>Smart Farm</h3><p>Automated Living System</p></div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact">
+      <div class="footer-kicker">Have an idea worth making real?</div>
+      <a class="footer-title" href="#top">LET’S MAKE<br />IT REAL.<span>↗</span></a>
+      <div class="footer-bottom"><span>REALDAY © 2026</span><span>SEOUL, KOREA</span><span>DESIGN · SOFTWARE · R&amp;D</span></div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
